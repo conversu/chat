@@ -20,6 +20,16 @@ npm i @conversu/chat
 
 Preset the providers follow this sequence:
 
-```react
 
+```react
+<Chat.Theme.Provider>
+    <Chat.Options.Provider>
+        <Chat.Control.Provider>
+            <Chat.Form.Provider>
+                <!-- Chat components -->
+            </Chat.Form.Provider>
+        </Chat.Control.Provider>
+    </Chat.Options.Provider>
+</Chat.Theme.Provider>
 ```
+
