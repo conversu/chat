@@ -1,6 +1,6 @@
 import { Text } from "@chakra-ui/react";
 import { useMessageContext } from "../provider/message.hook";
-import { RenderIf } from "@utils/RenderIf";
+import { RenderIf } from "../../utils/RenderIf";
 
 
 export default function MessageStatus() {

@@ -1,4 +1,4 @@
-import { isMobileDevice } from "@functions/utils"
+import { isMobileDevice } from "../../functions/utils"
 
 export const grayScale = {
     "900": "#181b23",

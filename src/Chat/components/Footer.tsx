@@ -1,6 +1,6 @@
 import { Flex, FlexProps } from "@chakra-ui/react";
-import { ChatControl } from "@ChatControl";
-import { isIOS, isMobileDevice } from "@functions/utils";
+import { ChatControl } from "../../ChatControl";
+import { isIOS, isMobileDevice } from "../../functions/utils";
 
 
 interface Props extends FlexProps {

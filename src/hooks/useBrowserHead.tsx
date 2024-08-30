@@ -1,4 +1,4 @@
-import { isMobileDevice } from "@functions/utils";
+import { isMobileDevice } from "../functions/utils";
 
 
 

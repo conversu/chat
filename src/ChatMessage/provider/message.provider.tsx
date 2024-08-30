@@ -2,10 +2,10 @@ import { ReactNode } from "react";
 import { isBefore } from "date-fns";
 
 import { MessageContext } from "./message.context";
-import { IMessage, MessageRole } from "@@types/chat";
-import { ChatTheme } from "@theme/index";
-import { IChatLayoutPalette, IChatLayoutProps } from "@@types/layout";
-import { ChatControl } from "@ChatControl";
+import { IMessage, MessageRole } from "../../@types/chat";
+import { ChatTheme } from "../../ChatTheme";
+import { IChatLayoutPalette, IChatLayoutProps } from "../../@types/layout";
+import { ChatControl } from "../../ChatControl";
 
 
 interface Props {

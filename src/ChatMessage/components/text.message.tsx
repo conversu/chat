@@ -1,6 +1,6 @@
 import { TextProps } from "@chakra-ui/react";
 import { useMessageContext } from "../provider/message.hook";
-import { ReactiveText } from "@utils/ReactiveText";
+import { ReactiveText } from "../../utils/ReactiveText";
 
 interface Props {
     props?: TextProps;

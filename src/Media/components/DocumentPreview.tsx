@@ -1,11 +1,12 @@
-import { AttachmentType } from "@@types/attachment";
-import { Button } from "@Button";
 import { Box, BoxProps, Center, Flex, Icon, Skeleton, Spinner, Text } from "@chakra-ui/react";
 import { FORMAT } from "@conversu/commons";
-import { useMedia } from "@Media/hooks/useMedia";
-import { Loadable } from "@utils/Loadable";
-import { RenderElse } from "@utils/RenderElse";
-import { RenderIf } from "@utils/RenderIf";
+
+import { AttachmentType } from "../../@types/attachment";
+import { Button } from "../../Button";
+import { useMedia } from "../../Media/hooks/useMedia";
+import { Loadable } from "../../utils/Loadable";
+import { RenderElse } from "../../utils/RenderElse";
+import { RenderIf } from "../../utils/RenderIf";
 import { FaRegFilePdf } from "react-icons/fa";
 import { FiRefreshCw } from "react-icons/fi";
 

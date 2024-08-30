@@ -1,4 +1,4 @@
-import { IMessage } from "@@types/chat";
+import { IMessage } from "../../@types/chat";
 import { createContext } from "react";
 
 

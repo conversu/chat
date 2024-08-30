@@ -1,8 +1,10 @@
-import { FormLabel, FormLabelProps, Icon, Text, Tooltip, useColorModeValue } from "@chakra-ui/react";
-import { ChatTheme } from "@theme/index";
-import { RenderIf } from "@utils/RenderIf";
 import { ReactNode } from "react";
+import { FormLabel, FormLabelProps, Icon, Text, Tooltip, useColorModeValue } from "@chakra-ui/react";
 import { BiHelpCircle } from "react-icons/bi";
+
+import { ChatTheme } from "../../ChatTheme";
+import { RenderIf } from "../../utils/RenderIf";
+
 
 
 

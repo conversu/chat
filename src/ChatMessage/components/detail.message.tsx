@@ -4,8 +4,8 @@ import { format } from "date-fns";
 import { LuCheck, LuCheckCheck, LuClock } from "react-icons/lu";
 
 import { useMessageContext } from "../provider/message.hook";
-import { MessageRole } from "@@types/chat";
-import { RenderIf } from "@utils/RenderIf";
+import { MessageRole } from "../../@types/chat";
+import { RenderIf } from "../../utils/RenderIf";
 
 
 interface Props {

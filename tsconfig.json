@@ -1,23 +1,5 @@
 {
     "compilerOptions": {
-        "baseUrl": ".",
-        "paths": {
-            "@theme/*": [
-                "./src/theme/*"
-            ],
-            "@cte/*": [
-                "./src/cte/*"
-            ],
-            "@utils/*": [
-                "./src/utils/*"
-            ],
-            "@*": [
-                "./src/*"
-            ],
-            "_types/*": [
-                "./src/@types/*"
-            ]
-        },
         "target": "ES5", // Specifies the JavaScript version to target when transpiling code.
         "useDefineForClassFields": true, // Enables the use of 'define' for class fields.
         "lib": [

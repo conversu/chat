@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import { Input } from "@chakra-ui/react";
-import { ChatForm } from "@ChatForm";
+import { ChatForm } from "../../ChatForm";
 
 
 

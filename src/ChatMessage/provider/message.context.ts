@@ -1,5 +1,5 @@
-import { IAgent, IMessage, IMessageRole } from "@@types/chat";
-import { IChatLayoutPalette, IChatLayoutProps } from "@@types/layout";
+import { IAgent, IMessage, IMessageRole } from "../../@types/chat";
+import { IChatLayoutPalette, IChatLayoutProps } from "../../@types/layout";
 import { createContext } from "react";
 
 

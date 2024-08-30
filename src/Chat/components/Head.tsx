@@ -1,5 +1,5 @@
-import { ChatControl } from '@ChatControl';
-import { ChatOptions } from '@ChatOptions';
+import { ChatControl } from '../../ChatControl';
+import { ChatOptions } from '../../ChatOptions';
 import { ReactNode } from 'react';
 import { Helmet } from 'react-helmet-async';
 

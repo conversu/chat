@@ -1,11 +1,11 @@
 import Lottie from "react-lottie-player";
 
 import { Flex } from "@chakra-ui/react";
-import { RenderIf } from "@utils/RenderIf";
-import { Avatar } from "@Chat/components/Avatar";
-import { IChatLayoutProps } from "@@types/layout";
-import { IMessageRole } from "@@types/chat";
-import { useAsset } from "@hooks/useAsset";
+import { RenderIf } from "../utils/RenderIf";
+import { Avatar } from "../Chat/components/Avatar";
+import { IChatLayoutProps } from "../@types/layout";
+import { IMessageRole } from "../@types/chat";
+import { useAsset } from "../hooks/useAsset";
 
 interface Props {
     style: IChatLayoutProps;

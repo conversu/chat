@@ -2,7 +2,7 @@ import { FormEvent, ReactNode, useEffect, useRef, useState } from "react";
 
 
 import { ChatFormContext } from "./context";
-import { IFile, InputType } from "@@types/chat";
+import { IFile, InputType } from "../../@types/chat";
 
 
 

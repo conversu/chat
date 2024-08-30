@@ -1,5 +1,5 @@
 import { Button, Center, Icon, useColorModeValue } from "@chakra-ui/react";
-import { ChatTheme } from "@theme/index";
+import { ChatTheme } from "../../ChatTheme";
 import { MdOutlineLightMode, MdOutlineNightlightRound } from "react-icons/md";
 
 

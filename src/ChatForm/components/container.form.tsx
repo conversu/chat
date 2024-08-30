@@ -1,9 +1,9 @@
 import { Flex, Text } from "@chakra-ui/react";
-import { RenderIf } from "@utils/RenderIf";
+import { RenderIf } from "../../utils/RenderIf";
 import { ReactNode } from "react";
 import { format } from "date-fns";
-import { ChatTheme } from "@theme/index";
-import { ChatForm } from "@ChatForm";
+import { ChatTheme } from "../../ChatTheme";
+import { ChatForm } from "../../ChatForm";
 
 
 interface Props {

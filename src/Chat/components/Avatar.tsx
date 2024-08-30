@@ -3,11 +3,11 @@ import { RiUser4Fill, RiUserSmileFill } from "react-icons/ri";
 import { MdOutlineSupportAgent } from "react-icons/md";
 
 import { Center, Flex, Icon, Text, Avatar as ChakraAvatar, Img, useColorModeValue } from "@chakra-ui/react";
-import { IChatLayoutProps } from "@@types/layout";
-import { IMessageRole, MessageRole } from "@@types/chat";
-import { ChatOptions } from "@ChatOptions";
-import { RenderIf } from "@utils/RenderIf";
-import { RenderElse } from "@utils/RenderElse";
+import { IChatLayoutProps } from "../../@types/layout";
+import { IMessageRole, MessageRole } from "../../@types/chat";
+import { ChatOptions } from "../../ChatOptions";
+import { RenderIf } from "../../utils/RenderIf";
+import { RenderElse } from "../../utils/RenderElse";
 
 
 interface BaseProps {

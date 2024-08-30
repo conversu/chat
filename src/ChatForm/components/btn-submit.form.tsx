@@ -1,10 +1,10 @@
 import { Icon, Spinner, useColorModeValue } from "@chakra-ui/react";
 import { BiErrorCircle } from "react-icons/bi";
 import { FiSend } from "react-icons/fi";
-import { Button } from "@Button";
-import { RenderIf } from "@utils/RenderIf";
-import { RenderElse } from "@utils/RenderElse";
-import { ChatTheme } from "@theme/index";
+import { Button } from "../../Button";
+import { RenderIf } from "../../utils/RenderIf";
+import { RenderElse } from "../../utils/RenderElse";
+import { ChatTheme } from "../../ChatTheme";
 
 
 interface Props {

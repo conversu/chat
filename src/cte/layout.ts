@@ -1,5 +1,6 @@
+import { conversuColors, grayScale } from "../ChatTheme/cte/global";
 import { IChatLayoutProps } from "../@types/layout";
-import { conversuColors, grayScale } from "../theme/global";
+
 
 
 export const defaultLayout: IChatLayoutProps = {

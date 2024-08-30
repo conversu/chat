@@ -5,9 +5,9 @@ import { useDisclosure, useToast } from "@chakra-ui/react";
 import { useMessageContext } from "../provider/message.hook";
 import MessageContent from "./content.message";
 import MessageTextContent from "./text.message";
-import { isMobileDevice } from "@functions/utils";
-import { MessageContentType } from "@@types/chat";
-import { MediaPreview } from "@Media";
+import { isMobileDevice } from "../../functions/utils";
+import { MessageContentType } from "../../@types/chat";
+import { MediaPreview } from "../../Media";
 
 
 

@@ -1,10 +1,10 @@
 import { Input, InputProps as ChrakraInputProps } from "@chakra-ui/react";
-import { ChatTheme } from "@theme/index";
-import { InputBaseProps } from "@Input/components/InputContainer";
-import { ChatOptions } from "@ChatOptions";
-import { ChatControl } from "@ChatControl";
-import { ChatForm } from "@ChatForm";
-import { InputType } from "@@types/chat";
+import { ChatTheme } from "../../ChatTheme";
+import { InputBaseProps } from "../../Input/components/InputContainer";
+import { ChatOptions } from "../../ChatOptions";
+import { ChatControl } from "../../ChatControl";
+import { ChatForm } from "../../ChatForm";
+import { InputType } from "../../@types/chat";
 
 
 

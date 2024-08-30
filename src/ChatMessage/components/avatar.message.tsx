@@ -1,7 +1,7 @@
-import { ChatOptions } from "@ChatOptions";
+import { ChatOptions } from "../../ChatOptions";
 import { useMessageContext } from "../provider/message.hook";
-import { RenderIf } from "@utils/RenderIf";
-import { Avatar } from "@Chat/components/Avatar";
+import { RenderIf } from "../../utils/RenderIf";
+import { Avatar } from "../../Chat/components/Avatar";
 
 
 interface Props {

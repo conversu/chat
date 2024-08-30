@@ -1,7 +1,7 @@
 import { Flex, FlexProps, useColorModeValue } from "@chakra-ui/react";
 import { ReactNode } from "react";
-import { ChatTheme } from "@theme/index";
-import { ChatForm } from "@ChatForm";
+import { ChatTheme } from "../../ChatTheme";
+import { ChatForm } from "../../ChatForm";
 
 
 

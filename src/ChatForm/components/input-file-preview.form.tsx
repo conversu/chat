@@ -3,13 +3,13 @@ import { FiTrash } from "react-icons/fi";
 import { HiOutlineDocumentSearch } from "react-icons/hi";
 import { MdImageSearch } from "react-icons/md";
 
-import { RenderIf } from "@utils/RenderIf";
-import { RenderElse } from "@utils/RenderElse";
-import { isMobileDevice } from "@functions/utils";
-import { Button } from "@Button";
-import { ChatTheme } from "@theme/index";
-import { MediaPreview } from "@Media";
-import { ChatForm } from "@ChatForm";
+import { RenderIf } from "../../utils/RenderIf";
+import { RenderElse } from "../../utils/RenderElse";
+import { isMobileDevice } from "../../functions/utils";
+import { Button } from "../../Button";
+import { ChatTheme } from "../../ChatTheme";
+import { MediaPreview } from "../../Media";
+import { ChatForm } from "../../ChatForm";
 
 
 

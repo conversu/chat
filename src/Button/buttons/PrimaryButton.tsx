@@ -1,5 +1,5 @@
 import { Button, ButtonProps } from "@chakra-ui/react";
-import { ChatTheme } from "../../theme";
+import { ChatTheme } from "../../ChatTheme";
 
 
 interface Props extends ButtonProps {

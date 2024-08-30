@@ -1,8 +1,8 @@
 import { ReactNode, useEffect } from "react";
 
 import { Flex } from "@chakra-ui/react";
-import { ChatControl } from "@ChatControl";
-import { useBrowserHead } from "@hooks/useBrowserHead";
+import { ChatControl } from "../../ChatControl";
+import { useBrowserHead } from "../../hooks/useBrowserHead";
 
 
 interface Props {

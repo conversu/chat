@@ -1,4 +1,4 @@
-import { useLogo } from "@hooks/useLogo";
+import { useLogo } from "../../hooks/useLogo";
 import { useEffect } from "react";
 
 interface Props {

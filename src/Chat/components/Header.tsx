@@ -6,10 +6,10 @@ import {
     MenuList,
     MenuItem
 } from '@chakra-ui/react';
-import { ChatControl } from '@ChatControl';
-import { ChatOptions } from '@ChatOptions';
-import { ChatTheme } from '@theme/index';
-import { RenderIf } from '@utils/RenderIf';
+import { ChatControl } from '../../ChatControl';
+import { ChatOptions } from '../../ChatOptions';
+import { ChatTheme } from '../../ChatTheme';
+import { RenderIf } from '../../utils/RenderIf';
 import { FiArrowLeft, FiRefreshCcw } from "react-icons/fi";
 
 import { IoSettingsOutline } from 'react-icons/io5';

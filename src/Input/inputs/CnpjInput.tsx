@@ -6,7 +6,7 @@ import {
 } from '@chakra-ui/react';
 
 import { InputBaseProps, InputContainer } from "../components/InputContainer";
-import { ChatTheme } from "@theme/index";
+import { ChatTheme } from "../../ChatTheme";
 
 
 export interface CnpjInputProps extends InputBaseProps, ChrakraInputProps {

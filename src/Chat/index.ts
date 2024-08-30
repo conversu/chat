@@ -6,7 +6,7 @@ import { ChatHead } from "./components/Head";
 import { Footer } from "./components/Footer";
 
 import { ChatMessages } from "./components/Messages";
-import { ChatControl } from "@ChatControl";
+import { ChatControl } from "../ChatControl";
 
 
 export const Chat = {

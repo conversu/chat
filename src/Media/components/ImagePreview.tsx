@@ -1,8 +1,8 @@
-import { AttachmentType } from "@@types/attachment";
-import { Button } from "@Button";
 import { Box, BoxProps, Flex, Icon, Image, ImageProps, Skeleton, Text } from "@chakra-ui/react";
-import { useMedia } from "@Media/hooks/useMedia";
-import { Loadable } from "@utils/Loadable";
+import { AttachmentType } from "../../@types/attachment";
+import { Button } from "../../Button";
+import { useMedia } from "../../Media/hooks/useMedia";
+import { Loadable } from "../../utils/Loadable";
 import { FiRefreshCw } from "react-icons/fi";
 import { LuImageOff } from "react-icons/lu";
 

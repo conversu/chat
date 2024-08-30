@@ -1,4 +1,4 @@
-import { Modal } from "@Modal";
+import { Modal } from "../Modal";
 import DocumentPreview from "./components/DocumentPreview";
 import ImagePreview from "./components/ImagePreview";
 import MediaDetail from "./components/MediaDetail";

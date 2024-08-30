@@ -1,5 +1,4 @@
-import { useBreakpointValue } from "@chakra-ui/react";
-import { ChatTheme } from "@theme/index";
+import { ChatTheme } from "../ChatTheme";
 
 
 export interface ScrollBarProps {
@@ -14,13 +13,6 @@ export interface ScrollBarProps {
 export function useScrollbar(props?: ScrollBarProps) {
 
     const { scrollbarStyle } = ChatTheme.use();
-    const isShortVersion = useBreakpointValue({
-        base: true,
-        sm: true,
-        md: false,
-        lg: false,
-        xl: false
-    });
 
     function scrollTo(to: string, behavior?: 'instant' | 'smooth', block?: 'end' | 'nearest') {
         const element = document.getElementById(to);
@@ -32,21 +24,21 @@ export function useScrollbar(props?: ScrollBarProps) {
         scrollTo,
         scrollProps: {
             '::-webkit-scrollbar': {
-                'width': props?.width ?? scrollbarStyle[isShortVersion ? 'short' : 'large'].width
+                'width': props?.width ?? scrollbarStyle.width
             },
             /* Track */
             '::-webkit-scrollbar-track': {
-                'background': props?.track ?? scrollbarStyle[isShortVersion ? 'short' : 'large'].track
+                'background': props?.track ?? scrollbarStyle.track
             },
             /* Handle */
             '::-webkit-scrollbar-thumb': {
-                'background': props?.thumb ?? scrollbarStyle[isShortVersion ? 'short' : 'large'].thumb,
+                'background': props?.thumb ?? scrollbarStyle.thumb,
                 'borderRadius': props?.borderRadius ?? scrollbarStyle.borderRadius,
                 'cursor': 'pointer'
             },
             /* Handle on hover */
             '::-webkit-scrollbar-thumb:hover': {
-                'background': props?.thumbHover ?? scrollbarStyle[isShortVersion ? 'short' : 'large'].thumbHover
+                'background': props?.thumbHover ?? scrollbarStyle.thumbHover
             }
         }
     }

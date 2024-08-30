@@ -1,10 +1,10 @@
 import { ReactNode } from "react";
 
-
+import { MessageContentType } from "../../@types/chat";
 import { useMessageContext } from "../provider/message.hook";
 import MessageContent from "./content.message";
 import MessageTextContent from "./text.message";
-import { MessageContentType } from "@@types/chat";
+
 
 
 

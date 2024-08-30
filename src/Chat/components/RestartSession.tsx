@@ -1,7 +1,7 @@
-import { Button } from "@Button";
+import { Button } from "../../Button";
 import { Flex } from "@chakra-ui/react";
-import { ChatControl } from "@ChatControl";
-import { RenderElse } from "@utils/RenderElse";
+import { ChatControl } from "../../ChatControl";
+import { RenderElse } from "../../utils/RenderElse";
 
 
 interface Props {

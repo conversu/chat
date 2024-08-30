@@ -1,16 +1,18 @@
 import { ReactNode, useEffect } from "react";
 import { Box, Flex, Skeleton } from "@chakra-ui/react";
-import { ChatControl } from "@ChatControl";
-import { ChatForm } from "@ChatForm";
-import { isIOS, isMobileDevice } from "@functions/utils";
-import { ChatOptions } from "@ChatOptions";
-import { RenderIf } from "@utils/RenderIf";
 import { generateKey, range } from "@conversu/commons";
-import { RenderElse } from "@utils/RenderElse";
-import { ChatTheme } from "@theme/index";
-import { MessageRole } from "@@types/chat";
-import { TypingAnimation } from "@TypingAnimation";
-import { useScrollbar } from "@hooks/useScrollbar";
+
+import { ChatControl } from "../../ChatControl";
+import { ChatForm } from "../../ChatForm";
+import { isIOS, isMobileDevice } from "../../functions/utils";
+import { ChatOptions } from "../../ChatOptions";
+import { RenderIf } from "../../utils/RenderIf";
+
+import { RenderElse } from "../../utils/RenderElse";
+import { ChatTheme } from "../../ChatTheme";
+import { MessageRole } from "../../@types/chat";
+import { TypingAnimation } from "../../TypingAnimation";
+import { useScrollbar } from "../../hooks/useScrollbar";
 
 interface Props {
     children: ReactNode;

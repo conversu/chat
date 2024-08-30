@@ -1,7 +1,7 @@
-import { Button } from "@Button";
+import { Button } from "../../Button";
 import { Center, Flex, Icon, Menu, MenuButton, MenuItem, MenuList, useColorModeValue } from "@chakra-ui/react";
-import { ChatTheme } from "@theme/index";
-import { RenderIf } from "@utils/RenderIf";
+import { ChatTheme } from "../../ChatTheme";
+import { RenderIf } from "../../utils/RenderIf";
 import { IoDocumentOutline } from "react-icons/io5";
 import { LuImage } from "react-icons/lu";
 import { MdAttachFile } from "react-icons/md";

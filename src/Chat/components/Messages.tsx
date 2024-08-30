@@ -1,6 +1,6 @@
 import React from "react";
-import { ChatMessage } from "@ChatMessage";
-import { ChatControl } from "@ChatControl";
+import { ChatMessage } from "../../ChatMessage";
+import { ChatControl } from "../../ChatControl";
 
 
 export function ChatMessages() {

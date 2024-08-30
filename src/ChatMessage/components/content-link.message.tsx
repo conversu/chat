@@ -2,7 +2,7 @@ import { Button, Icon } from "@chakra-ui/react";
 import { FaLink, FaWhatsapp } from "react-icons/fa";
 import { useMessageContext } from "../provider/message.hook";
 import MessageContent from "./content.message";
-import { MessageContentType } from "@@types/chat";
+import { MessageContentType } from "../../@types/chat";
 
 
 

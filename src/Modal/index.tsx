@@ -1,3 +1,4 @@
+import { ReactNode, TouchEvent, useState } from "react";
 import {
     ModalOverlay, Modal as ChakraModal,
     ModalContent, ModalCloseButton, ModalBody,
@@ -5,10 +6,10 @@ import {
     DrawerBody, FlexProps, Center, Box,
     useBreakpointValue
 } from "@chakra-ui/react";
-import { isMobileDevice } from "@functions/utils";
-import { useScrollbar } from "@hooks/useScrollbar";
-import { RenderIf } from "@utils/RenderIf";
-import { ReactNode, TouchEvent, useState } from "react";
+import { isMobileDevice } from "../functions/utils";
+import { useScrollbar } from "../hooks/useScrollbar";
+import { RenderIf } from "../utils/RenderIf";
+
 
 
 interface Props {

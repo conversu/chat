@@ -1,11 +1,12 @@
 import { ReactNode } from "react";
 import { useDisclosure } from "@chakra-ui/react";
 
+import { MessageContentType } from "../../@types/chat";
+import { MediaPreview } from "../../Media";
 import { useMessageContext } from "../provider/message.hook";
 import MessageContent from "./content.message";
 import MessageTextContent from "./text.message";
-import { MessageContentType } from "@@types/chat";
-import { MediaPreview } from "@Media";
+
 
 
 

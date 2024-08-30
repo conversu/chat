@@ -1,5 +1,5 @@
 
-import { AttachmentType } from "@@types/attachment";
+import { AttachmentType } from "../../@types/attachment";
 import { useQuery } from "@tanstack/react-query";
 import axios, { AxiosError, AxiosResponse } from "axios";
 

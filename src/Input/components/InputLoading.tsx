@@ -1,6 +1,6 @@
 import { Flex, FlexProps, Skeleton } from "@chakra-ui/react";
-import { ChatTheme } from "@theme/index";
-import { RenderIf } from "@utils/RenderIf";
+import { ChatTheme } from "../../ChatTheme";
+import { RenderIf } from "../../utils/RenderIf";
 
 
 

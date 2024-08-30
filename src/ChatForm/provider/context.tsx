@@ -1,5 +1,5 @@
 
-import { IFile, InputType } from "@@types/chat";
+import { IFile, InputType } from "../../@types/chat";
 import { FormEvent, createContext } from "react";
 
 

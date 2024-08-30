@@ -1,6 +1,6 @@
 import { createContext } from "react";
-import { IChatLayoutProps } from "../@types/layout";
 import { InputProps } from "@chakra-ui/react";
+import { IChatLayoutProps } from "../../@types/layout";
 
 
 export interface IChatThemeContext {
@@ -8,7 +8,13 @@ export interface IChatThemeContext {
     inputProps: InputProps;
     isDarkTheme: boolean;
     toggleTheme: () => void;
-    scrollbarStyle: any;
+    scrollbarStyle: {
+        borderRadius: string;
+        width: string;
+        track: string;
+        thumb: string;
+        thumbHover: string;
+    };
 }
 
 
